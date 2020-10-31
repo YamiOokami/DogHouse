@@ -17,6 +17,7 @@
 
 		// scroll body to the music section
 		$('#ourmusic-btn').click(function () {
+			bark();
 			$('body,html').animate({
 				scrollTop: 873
 			}, 400)
@@ -25,8 +26,14 @@
 
 		// scroll body to the shows section
 		$('#shows-btn').click(function () {
+			bark();
 			$('body,html').animate({
 				scrollTop: 1518
 			}, 400)
 			return false;
 		});
+
+		function bark() {
+			var barking = new Audio("sounds/single-dog-bark-2.wav");
+			barking.play()
+		};

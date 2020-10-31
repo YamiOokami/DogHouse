@@ -159,6 +159,10 @@ h1 {
     padding: 0% 5% 2%;
   }
 
+  .description {
+    text-align: center;
+  }
+
   .newslatter-title {
     letter-spacing: 0.1rem;
   }

@@ -142,3 +142,29 @@ h1 {
     right: 25px;
     /* display: none; */
 }
+
+@media (max-width: 575px) {
+  .container-fluid {
+    padding: 0% 5% 2%;
+  }
+
+  .newslatter-title {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 520px) {
+  .container-fluid {
+    padding: 0% 5% 2%;
+  }
+
+  .newslatter-title {
+    letter-spacing: 0.1rem;
+  }
+
+  .shows-title {
+    letter-spacing: 0.2rem;
+  }
+
+}
